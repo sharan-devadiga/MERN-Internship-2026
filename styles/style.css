@@ -1,0 +1,21 @@
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: aqua;
+}
+
+a:hover {
+  color: black;
+}
+a:active {
+  color: rgb(226, 43, 43);
+}
+
+table,
+td,
+th {
+  border: 1px solid rgb(23, 20, 20);
+  border-collapse: collapse;
+}
