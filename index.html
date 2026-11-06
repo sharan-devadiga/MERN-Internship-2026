@@ -276,10 +276,15 @@
       <br />
       <a href="register.html"><p>register here</p></a>
     </form> -->
-
+    <h1 id="greet"></h1>
     <p id="par"></p>
     <script>
-      document.getElementById("par").innerHTML = "<h1>Hello</h1>";
+      let Good = "Good ";
+      let Mrng = "Morning ";
+      let full = Good + "" + Mrng;
+      document.getElementById("par").innerHTML = full;
+      document.getElementById("greet").innerHTML = full;
     </script>
+    <!-- <script src="main.js"></script> -->
   </body>
 </html>
