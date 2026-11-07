@@ -108,12 +108,73 @@
 // fruits.pop();
 // console.log("After pop", fruits);
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-console.log("Before push", fruits);
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// console.log("Before push", fruits);
 
-// fruits.push();
-console.log("Added:", fruits.push("XYZ"));
+// // fruits.push();
+// console.log("Added:", fruits.push("XYZ"));
 
-console.log("After push", fruits);
-console.log("Added:", fruits.push("ABC"));
-console.log("After push", fruits);
+// console.log("After push", fruits);
+// console.log("Added:", fruits.push("ABC"));
+// console.log("After push", fruits);
+
+// let person = {
+//   name: "Sharan",
+//   age: 10,
+//   address: "Moodubidri",
+//   gender: "male",
+//   skills: ["Java", "Javascript", "php", "Ruby"],
+//   grade: 9.1,
+// };
+// console.log(person);
+// console.log(person.name, person.age);
+// console.log(person.skills);
+// console.log(person.skills[3]);
+// // console.log(person.name, person.age);
+
+// let date = new Date();
+// console.log(date);
+
+// const specific = new Date(2026, 5, 15, 10, 30, 0);
+// console.log(specific);
+
+//function without parms and argument
+// function sum() {
+//   let a = 10;
+//   let b = 20;
+//   console.log(a + b);
+// }
+// sum();
+
+// function with parms and argument
+// function sum(a, b) {
+//   console.log(a + b);
+// }
+// sum(10, 20);
+
+// function with parms and without argument
+// function sum(a = 10, b = 20) {
+//   console.log(a + b);
+// }
+// sum();
+
+// let sum = (a, b) => {
+//   console.log(a + b);
+// };
+// sum(10, 40);
+
+let str = "Hello World";
+
+console.log("Before replace", str);
+
+let replaced = str.replace("World", "Sharan");
+console.log("After replace", replaced);
+
+let slice = str.slice(0, 2);
+console.log("Slice:", slice);
+
+let search = str.search("World");
+console.log("search:", search);
+
+let split = str.split("Hello");
+console.log("split:", split);
